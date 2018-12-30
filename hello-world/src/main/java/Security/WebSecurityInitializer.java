@@ -1,4 +1,4 @@
-/*package Security;
+package Security;
 
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
@@ -9,4 +9,3 @@ public class WebSecurityInitializer extends AbstractSecurityWebApplicationInitia
 		System.out.println("WebSecurityInitializer") ;  
 	}
 }
-*/

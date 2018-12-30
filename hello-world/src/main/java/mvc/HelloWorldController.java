@@ -19,5 +19,10 @@ public class HelloWorldController {
 		model.addAttribute("greeting", "Hello World Again, from Spring 4 MVC");
 		return "welcome";
 	}
-
+	
+	@RequestMapping(value = "/Bienvenus", method = RequestMethod.GET)
+	public String sayBienvenue(ModelMap model) {
+		model.addAttribute("greeting", "Bienvenue dans Spring 5.0.1 MVC");
+		return "welcome";
+	}
 }
